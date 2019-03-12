@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import ButtonAppBar from '../ButtonAppBar/ButtonAppBar';
+import NameForm from '../NameForm/NameForm';
+
+
 
 const styles = theme => ({
   root: {
@@ -36,9 +38,11 @@ function CenteredGrid(props) {
         item xs={6}>
           <Paper className={classes.paper}>xs=6 Image</Paper>
           <br></br>
-          <Paper className={classes.paper}>xs=6 Radio</Paper>
+          <Paper className={classes.paper}>
+            <NameForm />
+          </Paper>
           <br></br>
-          <Paper className={classes.paper}>xs=6 Text</Paper>
+          <Paper className={classes.paper}>xs=6 </Paper>
         </Grid>
         <Grid 
         container
@@ -46,7 +50,9 @@ function CenteredGrid(props) {
         justify="center"
         alignItems="stretch"
         item xs={6}>
-          <Paper className={classes.paper}>xs=6 Carousel</Paper>
+          <Paper className={classes.paper}>xs=6 
+          Carousel needs work
+          </Paper>
         </Grid>
         <Grid item xs={3}>
           <Paper className={classes.paper}>xs=3 Calculator</Paper>
