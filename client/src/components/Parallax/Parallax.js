@@ -9,7 +9,7 @@ const ParallaxComponent = () => (
 
         <Parallax
             blur={0}
-            bgImage={require('../../images/BermudaBG.jpg')}
+            bgImage={require('../../images/PortfolioBG.jpg')}
             bgImageAlt="the cat"
             strength={200}
         >   

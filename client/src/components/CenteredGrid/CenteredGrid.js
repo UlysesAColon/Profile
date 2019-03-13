@@ -4,6 +4,8 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import NameForm from '../NameForm/NameForm';
+import DateAndTimePicker from '../DateAndTimePicker/DateAndTimePicker';
+import Calculator from '../Calculator/Calculator';
 
 
 
@@ -42,7 +44,12 @@ function CenteredGrid(props) {
             <NameForm />
           </Paper>
           <br></br>
-          <Paper className={classes.paper}>xs=6 </Paper>
+          <Paper className={classes.paper}>
+            <h1>
+            Pick a date and time:
+            </h1>
+            <DateAndTimePicker />
+          </Paper>
         </Grid>
         <Grid 
         container
@@ -55,13 +62,20 @@ function CenteredGrid(props) {
           </Paper>
         </Grid>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>xs=3 Calculator</Paper>
+          <Paper className={classes.paper}>
+          Video Player
+          </Paper>
         </Grid>
         <Grid item xs={3}>
           <Paper className={classes.paper}>xs=3 State based form data to hold</Paper>
         </Grid>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>xs=3 Video Player</Paper>
+          <Paper className={classes.paper}> 
+          <h1>
+            Transitioning Calculator
+          </h1>
+          <Calculator />
+          </Paper>
         </Grid>
         <Grid item xs={3}>
           <Paper className={classes.paper}>xs=3 Calendar</Paper>

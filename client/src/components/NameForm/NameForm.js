@@ -26,7 +26,7 @@ class NameForm extends React.Component {
     render() {
         var user = {
         hobbies: ["Basketball","Baseball","Football","Reading"],
-        name: "user",
+        name: "Guest",
         }
         return (
             <form onSubmit={this.handleSubmit}>
