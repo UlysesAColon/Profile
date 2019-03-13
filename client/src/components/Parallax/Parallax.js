@@ -3,6 +3,7 @@ import { Parallax, Background } from 'react-parallax';
 import CenteredGrid from '../CenteredGrid/CenteredGrid';
 import ButtonAppBar from '../ButtonAppBar/ButtonAppBar';
 
+
 const ParallaxComponent = () => (
     <div>
         {/* -----basic config-----*/}
@@ -15,7 +16,7 @@ const ParallaxComponent = () => (
         >   
         <ButtonAppBar />
             <div style={{ height: '800px' }} />
-        </Parallax>
+        </Parallax>     
  
         {/* -----dynamic blur-----*/}
         {/* <Parallax
