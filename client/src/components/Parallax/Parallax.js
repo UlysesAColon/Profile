@@ -1,6 +1,5 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
-import CenteredGrid from '../CenteredGrid/CenteredGrid';
+import { Parallax } from 'react-parallax';
 import ButtonAppBar from '../ButtonAppBar/ButtonAppBar';
 
 

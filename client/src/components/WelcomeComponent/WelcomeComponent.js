@@ -4,7 +4,6 @@ import React from 'react';
     class WelcomeComponent extends React.Component{
     render() {
         console.log(this.props);
-        var text = "Something";
         return(
             <div>
             <h1>Welcome {this.props.uname.name}!</h1>
