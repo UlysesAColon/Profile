@@ -10,6 +10,7 @@ import Blurb from '../Blurb/Blurb'
 import ControlledCarousel from '../ControlledCarousel/ControlledCarousel'
 import DEVCAROUSEL from '../ControlledCarousel/DEVCAROUSEL'
 import MenuPicker from '../MenuPicker/MenuPicker';
+import Calendar from '../Calendar/Calendar';
 
 
 const styles = theme => ({
@@ -64,7 +65,7 @@ function CenteredGrid(props) {
         item xs={6}>
           <Paper className={classes.paper}>
          <div>
-         <DEVCAROUSEL />
+         <Calendar />
          </div>
          </Paper>
         </Grid>
@@ -88,7 +89,9 @@ function CenteredGrid(props) {
           </Paper>
         </Grid>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>xs=3 Calendar</Paper>
+          <Paper className={classes.paper}>
+         <DEVCAROUSEL />
+          </Paper>
         </Grid>
       </Grid>
     </div>

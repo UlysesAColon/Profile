@@ -10,3 +10,18 @@ body{
     color:red;
     font-size: 2em;
 }
+.weekformat{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    font-size: 25px;
+    padding: 1px;
+}
+.calendarcard{
+    color:purple;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    float: left;
+    margin: 1px;
+}
