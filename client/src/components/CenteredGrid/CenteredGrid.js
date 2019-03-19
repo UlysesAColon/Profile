@@ -9,6 +9,7 @@ import Calculator from '../Calculator/Calculator';
 import Blurb from '../Blurb/Blurb'
 import ControlledCarousel from '../ControlledCarousel/ControlledCarousel'
 import DEVCAROUSEL from '../ControlledCarousel/DEVCAROUSEL'
+import MenuPicker from '../MenuPicker/MenuPicker';
 
 
 const styles = theme => ({
@@ -69,7 +70,10 @@ function CenteredGrid(props) {
         </Grid>
         <Grid item xs={3}>
           <Paper className={classes.paper}>
-          Video Player
+          <h1 class="Menusign">
+          Menu for week
+          </h1>
+          <MenuPicker/>
           </Paper>
         </Grid>
         <Grid item xs={3}>

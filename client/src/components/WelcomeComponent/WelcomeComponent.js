@@ -6,9 +6,8 @@ import React from 'react';
         console.log(this.props);
         return(
             <div>
-            <h1>Welcome {this.props.uname.name}!</h1>
             <div>
-            <h2>Hobbies include: 
+            <h2> Ulyses' hobbies include: 
                 <ul>
                 {this.props.uname.hobbies.map((hobby, i) => <li key={i}>{hobby}</li>)}
                 </ul>

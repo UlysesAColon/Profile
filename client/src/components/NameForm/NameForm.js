@@ -26,7 +26,7 @@ class NameForm extends React.Component {
     render() {
         var user = {
         hobbies: ["Basketball","Baseball","Football","Reading"],
-        name: "Guest",
+        name: this.state.value,
         }
         return (
             <form onSubmit={this.handleSubmit}>
@@ -36,8 +36,8 @@ class NameForm extends React.Component {
                     {/* The name submitted is: {this.state.value} */}
                 </label>
                 <input type="submit" value="Submit" />
+                <h1>Welcome {this.state.value}!</h1>
                 <WelcomeComponent uname={user}>
-                    <p>Welcome {this.state.value}!</p>
                 </WelcomeComponent>
             </form>  
         );
