@@ -32,6 +32,8 @@
     "express": "^4.16.4",
     "material-ui-next-pickers": "0.0.20",
     "mongoose": "^5.4.17",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "npm": "^6.9.0",
+    "react-scripts": "^1.1.1"
   }
 }
